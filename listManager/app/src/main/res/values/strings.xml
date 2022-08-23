@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">List Manager</string>
+    <string name="add_product">Add</string>
+    <string name="hint_product">Product Name...</string>
+    <string name="button_save">Save</string>
+    <string name="button_create"> Create </string>
+    <string name="empty_not_saved">Must be non-empty</string>
+    <string name="list_image">List Image</string>
+    <string name="product_name">Product Name</string>
+    <string name="quantity">Quantity...</string>
+    <string name="enter_product_details">Enter Product Details...</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="fab_to_add_product">button to move to add product activity</string>
+    <string name="image_button">Choose Image</string>
+    <string name="enter_a_name">Enter a name</string>
+    <string name="create_a_list">Create a list</string>
+
+    <string-array name="labels_unit">
+        <item>Unit</item>
+        <item>Kg</item>
+        <item>Liter</item>
+    </string-array>
+</resources>

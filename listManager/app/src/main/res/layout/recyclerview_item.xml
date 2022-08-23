@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewName"
+        style="@style/item_title"
+        android:layout_width="301dp"
+        android:layout_height="49dp"
+        android:gravity="center_vertical"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/holo_blue_light"
+        android:autoSizeMaxTextSize="25sp"
+        android:autoSizeMinTextSize="7sp"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="59dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:contentDescription="@string/list_image"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewName"
+        app:layout_constraintEnd_toStartOf="@+id/textViewName"
+        app:layout_constraintHorizontal_bias="0.279"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewName"
+        app:layout_constraintVertical_bias="1.0"
+        tools:srcCompat="@android:drawable/ic_menu_report_image" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
